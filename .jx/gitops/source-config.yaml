@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: boot-quickstart
+    - name: golang-http
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
