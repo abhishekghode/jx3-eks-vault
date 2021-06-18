@@ -12,6 +12,7 @@ spec:
     - name: go-sample
     - name: golang-http
     - name: jx3-eks-vault-4
+    - name: jx3-terraform-eks4
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
