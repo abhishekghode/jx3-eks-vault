@@ -19,6 +19,13 @@ spec:
     repository: jx3-eks-vault
   - key: staging
   - key: production
+  - gitKind: github
+    gitServer: https://github.com
+    key: jx3-eks-vault-4
+    owner: abhishekghode
+    promotionStrategy: Never
+    remoteCluster: true
+    repository: jx3-eks-vault-4
   ingress:
     domain: 3.108.128.6.nip.io
     externalDNS: false
